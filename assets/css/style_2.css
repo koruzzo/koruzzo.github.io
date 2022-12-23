@@ -1,0 +1,452 @@
+/*---------------------------------*/
+/*-----PARTIE_PARAMETRE_GLOBAL-----*/
+/*---------------------------------*/
+*
+{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
+
+
+/*------------------------------------*/
+/*-----PARTIE_PARAMETRE_scrollbar-----*/
+/*------------------------------------*/
+::before, ::after 
+{
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar 
+{
+    width: 0.9rem;
+    border-radius: 10rem;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb 
+{
+    border: 0.2rem solid rgb(179, 179, 179);
+    margin-right: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+}
+
+::-webkit-scrollbar-track 
+{
+    border-radius: 1rem;
+}
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+
+
+/*------------------------------------*/
+/*-----PARTIE_PARAMETRE_STRUCTURE-----*/
+/*------------------------------------*/
+
+p
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+main
+{
+    background-image: url('https://simplonline.co/static/background-simplon-pattern.svg') ;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 0%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    flex-direction:row;
+    min-height: 100vh;
+}
+
+label
+{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    cursor: default;
+}
+
+
+form
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+
+
+/*----------------------------------*/
+/*-----PARTIE_PARAMETRE_CLASSES-----*/
+/*----------------------------------*/
+
+
+.LEFT
+{
+display: flex;
+width: 60%;
+justify-content: center;
+align-items: center;
+}
+
+.P_gauche
+{
+    display: flex;
+    flex: 2 1 0%;
+/*----propriété non utilisé----*/
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+/*-----------------------------*/
+    justify-content: center;
+    max-width: 520px;
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.RIGHT
+{
+    display: block;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    margin: 32px 80px 32px 80px;
+    min-width: 520px;
+    flex: 1 1 0%;
+    left: 60%;
+    width: 40%;
+}
+
+.P_droite
+{
+    display: flex;
+    flex-direction: column;
+/*----propriété non utilisé----*/
+    -webkit-box-pack: center;
+/*-----------------------------*/
+    justify-content: center;
+    padding: 48px;
+    height: 100%;
+}
+
+
+
+.logoSY
+{
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.titreSY
+{
+    display: flex;
+    margin: 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 700;
+    color: #000000; 
+    text-decoration: none;
+    
+}
+
+.PP{
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(206, 0, 51);
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 32px;
+    font-size: 1.8rem;
+}
+
+.co
+{
+    margin-top: 0px;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: #000000; 
+    text-decoration: none;
+}
+
+.WARNING
+{
+    color: #CE0033;
+    text-align: right;
+    margin-bottom: 8px;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 1.6rem;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+.mail
+{
+    display: flex;
+    border: 1px solid rgb(110, 106, 105);
+    margin: 4px 0px;
+    border-radius: 8px;
+    padding: 9px;
+    width: 100%;
+    height: 48px;
+  
+}
+.pass
+{
+    display: flex;
+    border: 1px solid rgb(110, 106, 105);
+    margin: 4px 0px;
+    border-radius: 8px;
+    padding: 9px;
+    width: 100%;
+    height: 48px;
+}
+
+.pass .mail
+{
+
+    display: flex;
+    flex: 1 1 auto;
+    height: 48px;
+    min-width: 0px;
+    width: 1%;
+    background: rgb(255, 255, 255);
+}
+
+.pass:active, .mail:active
+{
+    border: solid rgb(80, 77, 193);;
+}
+
+.sousT
+{
+    color:#6E6A69;
+}
+
+.FO
+{
+    margin: 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: rgb(80, 77, 193);
+    text-decoration: underline;
+}
+
+.BOUTON
+{
+
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    --icon-color: #FFFFFF;
+    display: flex;
+    width: 100%;
+/*----propriété non utilisé----*/
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+/*-----------------------------*/
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 4px;
+    padding: calc(10px) calc(22px);
+    border-radius: 8px;
+    border: 2px solid rgb(80, 77, 193);
+    background-color: rgb(80, 77, 193);
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    will-change: box-shadow, transform;
+    margin-top: 28px;
+}
+
+.BOUTON:hover
+{
+    box-shadow: 3px 3px 3px #ffc34d;
+    transform: translate(-3px, -3px);
+    transition: all 0.2s;
+}
+
+.ESP1
+{
+    margin-top: 15px;
+    font-size: 1.0rem;
+    line-height: 1.6rem;
+}
+.ESP2
+{
+    margin-top: 15px;
+    font-size: 1.0rem;
+    line-height: 1.6rem;
+}
+.pointillet1
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: #000000; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pointillet2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: #000000; 
+    text-decoration: none;
+}
+    
+
+.pointillet
+{
+   
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: #000000; 
+    
+}
+
+.pointillet::before
+{
+    content: "•";
+    margin-right: 4px;
+    color: rgb(80, 77, 193);
+}
+
+.lienP
+{
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+.MlienP
+{
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(80, 77, 193); 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+
+}
+.lienP::before
+{
+    content: "•";
+    margin-right: 4px;
+    color: rgb(80, 77, 193);
+}
+.espacement_P
+{
+    margin-top: 32px;
+}
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+
+/*------------------------------*/
+/*-----PARTIE_BOUTON_LANGUE-----*/
+/*------------------------------*/
+.BOUTON_fr
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 147.69px;
+    height: 52px;
+    background-color: #e2e2e2;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 32px;
+    
+}
+
+.T_fr
+{
+    display: flex;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+}
+
+.IMG_bouton
+{
+    display: flex;
+    width: 24px;
+    height: 24px;    
+}
+
+.SVG_fr
+{
+    display: flex;
+    color: rgb(80, 77, 193);
+    transform: rotate(180deg);
+}
+.BOUTON_fr:hover
+{
+    box-shadow: 3px 3px 3px #ffc34d;
+    transform: translate(-3px, -3px);
+    transition: all 0.2s;
+}
+
+
+
+
+
+/*------------------------------*/
+/*------------------------------*/
+/*------------------------------*/

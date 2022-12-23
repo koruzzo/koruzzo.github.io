@@ -2,36 +2,170 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <link href="ASSETS/CSS/STYLES.css" rel="stylesheet" type="text/css">
-        <meta name="viewport" content="width=device-width">
-        <title>Portfolio</title>
+        <link href="assets/css/style_1.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <script src="https://kit.fontawesome.com/71e58fb851.js" crossorigin="anonymous"></script>
+        <title>Présentation</title>
     </head>
 
     <body>
-        
         <header>
-            <div class="Ensemble_header">   
-                <div class="image_profil_header">
- 
-                </div>
-                <div class="Titre_header">
+            <div class="block_menu_header">
+                <nav class="menu_portfolio_header">
+                    <ul class="ul_global_menu_header">
+                        <li class="menu_deroulant">
+                            <a class="a_menu_top_header" href="#">MENU</a>
+                            <ul class="sous_menu">
+                                <li class="li_menu_header"><a class="a_menu_header" href="assets/html/CV.html">CV</a></li>
+                                <li class="li_menu_header"><a class="a_menu_header" href="assets/html/index_projets.html">Projets</a></li>
+                            </ul>
+                        </li>     
+                    </ul>
 
-                </div>
-
+                </nav>
             </div>
-
+            
+            <div class="titre_portfolio_header">
+                <h2 class="grand_titre">Raphaël JARREAU</h2>
+                <h4 class="petit_titre">Apprenti Développeur-Web</h4>
+            </div>
+           
         </header>
 
+        <div class="bandeau_rgb">
+            <div class="ligne_A"></div>
+            <div class="ligne_B"></div>
+            <div class="ligne_C"></div>
+            <div class="ligne_D"></div>
+        </div>
         <main>
+            <section class="section_presentation">
+                <article class="article_presentation">
 
+                    <div class="partie_grand_titre_article">
+                        <H1 class="grand_titre_article">Portfolio</H1>
+                    </div>
+                    <div class="ligne_partie_basse_article"> 
+                    <figure class="cadre_image_profil_jeux">
+                        <img class="image_profil" src="assets/image/image_profil_jeux_1.png" alt="">
+                    </figure>
+                    <div class="partie_paragraphe_article">
+                        <p class="paragraphe_article">Je m'appelle Raphaël JARREAU et je vous souhaite la bienvenue sur mon portfolio. <br> Je suis un apprenti développeur-web en cours de formation chez Simplon. Ici vous trouverez mon cv et le suivi de l'ensemble de mes projets passés et futurs afin de m'accompagner dans l'améliorations de mes compétences de développeur web.</p>
+                    </div>
+                </div>     
+                </article>
+            </section>
+
+            <div class="bandeau_rgb">
+                <div class="ligne_D"></div>
+                <div class="ligne_C"></div>
+                <div class="ligne_B"></div>
+                <div class="ligne_A"></div>
+            </div>
+            <div class="bandeau_rgb">
+                <div class="ligne_A"></div>
+                <div class="ligne_B"></div>
+                <div class="ligne_C"></div>
+                <div class="ligne_D"></div>
+            </div>
+
+            <div class="fond_oeil_neon">
+                <div class="oeil_neon"></div>
+
+            </div>
+            <div class="bandeau_rgb">
+                <div class="ligne_D"></div>
+                <div class="ligne_C"></div>
+                <div class="ligne_B"></div>
+                <div class="ligne_A"></div>
+            </div>
+            <div class="bandeau_rgb">
+                <div class="ligne_A"></div>
+                <div class="ligne_B"></div>
+                <div class="ligne_C"></div>
+                <div class="ligne_D"></div>
+            </div>
+
+            <section class="section_competence">
+                <div class="titre_competence">
+                     <H2 class="grand_titre_article">Mes compétences :</H2>
+                </div>
+                <P class="paragraphe_article">Voici mon niveau de compétence dans les divers languages informatique que j'ai appris.</P>
+                <div class="partie_basse_competence">
+                    <H4 class="titre_competence">HTML</H4>
+                    <div class="barre"><div class="barre_html"></div></div>
+                    <H4 class="titre_competence">CSS</H4>
+                    <div class="barre"><div class="barre_css"></div></div>
+                    <H4 class="titre_competence">SQL</H4>
+                    <div class="barre"><div class="barre_sql"></div></div>
+                </div>
+                    
+            </section>
 
         </main>
 
+
         <footer>
+            <section class="footer_premier_contact">
+                
+                <form class="form_contact" action="mailto:raphael.tr.jarreau@gmail.com" method="get" enctype="text/plain">
+                    <h2>Donner votre avis !</h2>
+                    <input class="form_espace_ecriture" type="text" name="name" placeholder=" Nom" required/>
+                    <input class="form_espace_ecriture" type="text" name="firstname" placeholder=" Prénom" required/>
+                    <input class="form_espace_ecriture" type="text" name="email" placeholder=" Exemple@mail.com" required/>
+                    <h2>Commentaires:</h2>
+                    <select name="sujet" class="form_sujets" required>
+                        <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                        <option value="probleme-compte">Problème avec le site</option>
+                        <option value="question-produit">Question à propos d'un projet</option>
+                        <option value="suivi-commande">Question à propos du cv</option>
+                        <option value="autre">Autre...</option>
+                    </select>
+                    <textarea class="form_comments" name="comments" rows="15" cols="60"></textarea>
+                    <input class="form_bouton" type="submit" name="submit" value="Envoyer" />
+                    <input class="form_bouton" type="reset" name="reset" value="Nettoyer" />
+                </form>
+            </section>
 
+            <section class="footer_deuxieme_index">
+                <nav class="nav_footer">
+                    <ul class="sous_nav_footer">
+                        <li><a href="#">-Retour en haut</a></li>
+                        <li><a href="assets/html/CV.html">-CV</a></li>
+                        <li><a href="assets/html/index_projets.html"> -Index Projets</a></li>
+                        <li><a href="assets/html/projet_1_simplon.html">-Projets 1 Simplon</a></li>
+                    </ul>
+                </nav>
 
-        </footer>
-        
+                
+                <div class="footer_conteneur_icon">
+                    <h2>Mes réseaux sociaux :</h2>
+                    <div class="footer_div_icon">
+                        <a class="footer_lien_icon" href="https://github.com/koruzzo"><i class="fa-brands fa-github"></i></a>
+                       <a class="footer_lien_icon" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </section>
+        </footer>    
     </body>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
